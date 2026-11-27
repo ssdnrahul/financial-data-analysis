@@ -10,7 +10,7 @@ The analysis helps identify revenue trends, expense patterns, profitability driv
 
 ## Business Problem
 
-The business needs a centralized financial analysis to understand its overall performance and identify areas requiring improvement.
+The business requires a centralized financial analysis to understand its overall performance and identify areas requiring improvement.
 
 The key business challenges include:
 
@@ -43,7 +43,7 @@ The project uses financial and operational datasets containing information about
 - Vendors
 - Invoices
 - Payments
-- Account mapping
+- Account Mapping
 - Calendar
 
 ### Dataset Summary
@@ -56,7 +56,7 @@ The project uses financial and operational datasets containing information about
 | Revenue | ₹654.62 Million |
 | Operating Expenses | ₹513.67 Million |
 | EBITDA | ₹52.96 Million |
-| Profit Before Tax (PBT) | ₹7.85 Million |
+| Profit Before Tax | ₹7.85 Million |
 | Accounts Receivable | ₹262.96 Million |
 | Accounts Payable | ₹246.30 Million |
 
@@ -80,11 +80,27 @@ The project uses financial and operational datasets containing information about
 - **Power BI:** Interactive dashboards, KPI cards, financial analysis, and data visualization.
 - **Excel:** Data validation, analysis, and supporting calculations.
 
-## Dashboard Pages
-
-The Power BI dashboard contains four analytical pages.
+## Dashboard Preview
 
 ### 1. Finance Overview
+
+![Finance Overview](PowerBI/Screenshots/Finance_Overview.png)
+
+### 2. Branch Performance
+
+![Branch Performance](PowerBI/Screenshots/Branch_Performance.png)
+
+### 3. Expenses & Profitability
+
+![Expenses & Profitability](PowerBI/Screenshots/Expenses_Profitability.png)
+
+### 4. Working Capital & Cash Flow
+
+![Working Capital & Cash Flow](PowerBI/Screenshots/Working_Capital.png)
+
+## Dashboard Pages
+
+### Finance Overview
 
 Provides a high-level view of the company's financial performance, including:
 
@@ -94,7 +110,7 @@ Provides a high-level view of the company's financial performance, including:
 - Profit Before Tax
 - Revenue and profitability trends
 
-### 2. Branch Performance
+### Branch Performance
 
 Analyzes financial performance across branches, including:
 
@@ -103,7 +119,7 @@ Analyzes financial performance across branches, including:
 - Branch profitability
 - Performance comparison across locations
 
-### 3. Expenses & Profitability
+### Expenses & Profitability
 
 Focuses on cost structure and profitability, including:
 
@@ -112,7 +128,7 @@ Focuses on cost structure and profitability, including:
 - EBITDA analysis
 - Profitability trends
 
-### 4. Working Capital & Cash Flow
+### Working Capital & Cash Flow
 
 Provides insights into working capital and financial obligations, including:
 
@@ -121,24 +137,6 @@ Provides insights into working capital and financial obligations, including:
 - Outstanding invoices
 - Payment analysis
 - Working capital position
-
-## Dashboard Preview
-
-### Finance Overview
-
-![Finance Overview](PowerBI/Screenshots/Finance_Overview.png)
-
-### Branch Performance
-
-![Branch Performance](PowerBI/Screenshots/Branch_Performance.png)
-
-### Expenses & Profitability
-
-![Expenses & Profitability](PowerBI/Screenshots/Expenses_Profitability.png)
-
-### Working Capital & Cash Flow
-
-![Working Capital & Cash Flow](PowerBI/Screenshots/Working_Capital.png)
 
 ## Key Financial Insights
 
@@ -151,6 +149,13 @@ Provides insights into working capital and financial obligations, including:
 
 These metrics provide an overview of revenue generation, cost management, profitability, and working capital position.
 
+## Project Files
+
+- [Business Case Study](Documentation/Business_Case.pdf)
+- [Python Analysis Notebook](Notebooks/Finance.ipynb)
+- [Power BI Dashboard](PowerBI/Finance_BI.pbix)
+- [SQL Analysis Queries](SQL/Financial_Analysis.sql)
+
 ## Repository Structure
 
 ```text
@@ -160,7 +165,7 @@ financial-data-analysis/
 │   ├── transactions.csv
 │   ├── branches.csv
 │   ├── budgets.csv
-│   └── ...
+│   └── other_dataset_files.csv
 │
 ├── Documentation/
 │   └── Business_Case.pdf
@@ -180,20 +185,3 @@ financial-data-analysis/
 │   └── Financial_Analysis.sql
 │
 └── README.md
-```
-
-## Conclusion
-
-This project demonstrates how financial data can be transformed into actionable business insights using SQL, Python, and Power BI.
-
-The analysis supports financial performance monitoring, branch comparison, expense control, profitability analysis, and working capital management.
-
-The interactive dashboard provides a consolidated view of financial KPIs and helps management make informed business decisions.
-
-## Author
-
-**Rahul Chhabra**
-
-Data Analytics | SQL | Power BI | Python | Excel
-
-[GitHub](https://github.com/ssdnrahul)
