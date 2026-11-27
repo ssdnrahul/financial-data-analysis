@@ -93,17 +93,6 @@ The project uses financial and operational datasets containing information about
 
 ### Working Capital
 ![working capital](PowerBI/working%20capital.png)
-### 3. Expenses & Profit
-
-[![Expenses & Profit](PowerBI/Screenshots/Expenses%20%26%20Profit.png)](PowerBI/Screenshots/Expenses%20%26%20Profit.png)
-
-[Open Expenses & Profit screenshot](PowerBI/Screenshots/Expenses%20%26%20Profit.png)
-
-### 4. Working Capital
-
-[![working capital](PowerBI/Screenshots/working%20capital.png)](PowerBI/Screenshots/working%20capital.png)
-
-[Open working capital screenshot](PowerBI/Screenshots/working%20capital.png)
 
 ## Dashboard Pages
 
