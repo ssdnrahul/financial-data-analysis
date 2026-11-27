@@ -6,30 +6,28 @@ This project focuses on analyzing financial and operational data to evaluate bus
 
 The objective is to transform raw financial data into meaningful business insights using SQL, Python, Excel, and Power BI.
 
-The analysis helps identify revenue trends, expense patterns, profitability drivers, and working capital challenges to support data-driven financial decision-making.
-
 ## Business Problem
 
 The business requires a centralized financial analysis to understand its overall performance and identify areas requiring improvement.
 
-The key business challenges include:
+Key challenges include:
 
-- Monitoring revenue and operating expenses.
-- Evaluating branch-level financial performance.
-- Understanding profitability and cost structure.
-- Identifying outstanding accounts receivable and payable.
-- Analyzing working capital and cash flow.
-- Comparing financial performance across different periods.
+- Monitoring revenue and operating expenses
+- Evaluating branch-level financial performance
+- Understanding profitability and cost structure
+- Identifying outstanding accounts receivable and payable
+- Analyzing working capital and cash flow
+- Comparing financial performance across different periods
 
 ## Project Objectives
 
-- Analyze overall financial performance.
-- Evaluate revenue and expense trends.
-- Compare financial performance across branches.
-- Identify major operating expense categories.
-- Monitor profitability and EBITDA.
-- Analyze accounts receivable and accounts payable.
-- Provide actionable insights through an interactive Power BI dashboard.
+- Analyze overall financial performance
+- Evaluate revenue and expense trends
+- Compare financial performance across branches
+- Identify major operating expense categories
+- Monitor profitability and EBITDA
+- Analyze accounts receivable and accounts payable
+- Provide actionable insights through an interactive Power BI dashboard
 
 ## Dataset Overview
 
@@ -56,7 +54,7 @@ The project uses financial and operational datasets containing information about
 | Revenue | ₹654.62 Million |
 | Operating Expenses | ₹513.67 Million |
 | EBITDA | ₹52.96 Million |
-| Profit Before Tax (PBT) | ₹7.85 Million |
+| Profit Before Tax | ₹7.85 Million |
 | Accounts Receivable | ₹262.96 Million |
 | Accounts Payable | ₹246.30 Million |
 
@@ -75,34 +73,42 @@ The project uses financial and operational datasets containing information about
 
 ## Tools & Technologies
 
-- **SQL (MySQL):** Data extraction, joins, aggregations, CTEs, and window functions.
-- **Python:** Data analysis and data preparation using Pandas and NumPy.
-- **Power BI:** Interactive dashboards, KPI cards, financial analysis, and data visualization.
-- **Excel:** Data validation, analysis, and supporting calculations.
+- **SQL (MySQL):** Data extraction, joins, aggregations, CTEs, and window functions
+- **Python:** Data analysis using Pandas and NumPy
+- **Power BI:** Interactive dashboards, KPI cards, and financial visualization
+- **Excel:** Data validation, analysis, and supporting calculations
 
 ## Dashboard Preview
 
 ### 1. Finance Overview
 
-![Finance Overview](PowerBI/Screenshots/Finance%20overview.png)
+[![Finance overview](PowerBI/Screenshots/Finance%20overview.png)](PowerBI/Screenshots/Finance%20overview.png)
+
+[Open Finance overview screenshot](PowerBI/Screenshots/Finance%20overview.png)
 
 ### 2. Branch Performance
 
-![Branch Performance](PowerBI/Screenshots/Branch%20Performance.png)
+[![Branch Performance](PowerBI/Screenshots/Branch%20Performance.png)](PowerBI/Screenshots/Branch%20Performance.png)
 
-### 3. Expenses & Profitability
+[Open Branch Performance screenshot](PowerBI/Screenshots/Branch%20Performance.png)
 
-![Expenses and Profitability](PowerBI/Screenshots/Expenses%20%26%20Profitability.png)
+### 3. Expenses & Profit
+
+[![Expenses & Profit](PowerBI/Screenshots/Expenses%20%26%20Profit.png)](PowerBI/Screenshots/Expenses%20%26%20Profit.png)
+
+[Open Expenses & Profit screenshot](PowerBI/Screenshots/Expenses%20%26%20Profit.png)
 
 ### 4. Working Capital
 
-![Working Capital](PowerBI/Screenshots/working%20capital.png)
+[![working capital](PowerBI/Screenshots/working%20capital.png)](PowerBI/Screenshots/working%20capital.png)
+
+[Open working capital screenshot](PowerBI/Screenshots/working%20capital.png)
 
 ## Dashboard Pages
 
 ### Finance Overview
 
-Provides a high-level view of the company's financial performance, including:
+Provides a high-level view of financial performance, including:
 
 - Revenue
 - Operating Expenses
@@ -119,7 +125,7 @@ Analyzes financial performance across branches, including:
 - Branch profitability
 - Performance comparison across locations
 
-### Expenses & Profitability
+### Expenses & Profit
 
 Focuses on cost structure and profitability, including:
 
@@ -140,7 +146,7 @@ Provides insights into working capital and financial obligations, including:
 
 ## Key Financial Insights
 
-- The business generated approximately ₹654.62 Million in revenue during the analysis period.
+- Revenue was approximately ₹654.62 Million during the analysis period.
 - Operating expenses were approximately ₹513.67 Million.
 - EBITDA was approximately ₹52.96 Million.
 - Profit Before Tax was approximately ₹7.85 Million.
@@ -162,25 +168,19 @@ These metrics provide an overview of revenue generation, cost management, profit
 financial-data-analysis/
 │
 ├── Dataset/
-│   └── Financial dataset files
-│
 ├── Documentation/
 │   └── Business_Case.pdf
-│
 ├── Notebooks/
 │   └── Finance.ipynb
-│
 ├── PowerBI/
 │   ├── Finance_BI.pbix
 │   └── Screenshots/
 │       ├── Branch Performance.png
-│       ├── Expenses & Profitability.png
+│       ├── Expenses & Profit.png
 │       ├── Finance overview.png
 │       └── working capital.png
-│
 ├── SQL/
 │   └── Financial_Analysis.sql
-│
 └── README.md
 ```
 
