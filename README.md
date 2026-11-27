@@ -80,18 +80,19 @@ The project uses financial and operational datasets containing information about
 
 ## Dashboard Preview
 
-### 1. Finance Overview
+## Dashboard Preview
 
-[![Finance overview](PowerBI/Screenshots/Finance%20overview.png)](PowerBI/Screenshots/Finance%20overview.png)
+### Finance Overview
+![Finance overview](PowerBI/Finance%20overview.png)
 
-[Open Finance overview screenshot](PowerBI/Screenshots/Finance%20overview.png)
+### Branch Performance
+![Branch Performance](PowerBI/Branch%20Performance.png)
 
-### 2. Branch Performance
+### Expenses & Profit
+![Expenses & Profit](PowerBI/Expenses%20%26%20Profit.png)
 
-[![Branch Performance](PowerBI/Screenshots/Branch%20Performance.png)](PowerBI/Screenshots/Branch%20Performance.png)
-
-[Open Branch Performance screenshot](PowerBI/Screenshots/Branch%20Performance.png)
-
+### Working Capital
+![working capital](PowerBI/working%20capital.png)
 ### 3. Expenses & Profit
 
 [![Expenses & Profit](PowerBI/Screenshots/Expenses%20%26%20Profit.png)](PowerBI/Screenshots/Expenses%20%26%20Profit.png)
