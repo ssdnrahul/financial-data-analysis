@@ -56,7 +56,7 @@ The project uses financial and operational datasets containing information about
 | Revenue | ₹654.62 Million |
 | Operating Expenses | ₹513.67 Million |
 | EBITDA | ₹52.96 Million |
-| Profit Before Tax | ₹7.85 Million |
+| Profit Before Tax (PBT) | ₹7.85 Million |
 | Accounts Receivable | ₹262.96 Million |
 | Accounts Payable | ₹246.30 Million |
 
@@ -84,19 +84,19 @@ The project uses financial and operational datasets containing information about
 
 ### 1. Finance Overview
 
-![Finance Overview](PowerBI/Screenshots/Finance Overview.png)
+![Finance Overview](PowerBI/Screenshots/Finance%20overview.png)
 
 ### 2. Branch Performance
 
-![Branch Performance](PowerBI/Screenshots/Branch Performance.png)
+![Branch Performance](PowerBI/Screenshots/Branch%20Performance.png)
 
 ### 3. Expenses & Profitability
 
-![Expenses & Profitability](PowerBI/Screenshots/Expenses & Profit.png)
+![Expenses and Profitability](PowerBI/Screenshots/Expenses%20%26%20Profitability.png)
 
-### 4. Working Capital & Cash Flow
+### 4. Working Capital
 
-![Working Capital & Cash Flow](PowerBI/Screenshots/working capital.png)
+![Working Capital](PowerBI/Screenshots/working%20capital.png)
 
 ## Dashboard Pages
 
@@ -128,7 +128,7 @@ Focuses on cost structure and profitability, including:
 - EBITDA analysis
 - Profitability trends
 
-### Working Capital & Cash Flow
+### Working Capital
 
 Provides insights into working capital and financial obligations, including:
 
@@ -162,10 +162,7 @@ These metrics provide an overview of revenue generation, cost management, profit
 financial-data-analysis/
 │
 ├── Dataset/
-│   ├── transactions.csv
-│   ├── branches.csv
-│   ├── budgets.csv
-│   └── other_dataset_files.csv
+│   └── Financial dataset files
 │
 ├── Documentation/
 │   └── Business_Case.pdf
@@ -176,12 +173,29 @@ financial-data-analysis/
 ├── PowerBI/
 │   ├── Finance_BI.pbix
 │   └── Screenshots/
-│       ├── Finance_Overview.png
-│       ├── Branch_Performance.png
-│       ├── Expenses_Profitability.png
-│       └── Working_Capital.png
+│       ├── Branch Performance.png
+│       ├── Expenses & Profitability.png
+│       ├── Finance overview.png
+│       └── working capital.png
 │
 ├── SQL/
 │   └── Financial_Analysis.sql
 │
 └── README.md
+```
+
+## Conclusion
+
+This project demonstrates how financial data can be transformed into actionable business insights using SQL, Python, and Power BI.
+
+The analysis supports financial performance monitoring, branch comparison, expense control, profitability analysis, and working capital management.
+
+The interactive dashboard provides a consolidated view of financial KPIs and helps management make informed business decisions.
+
+## Author
+
+**Rahul Chhabra**
+
+Data Analytics | SQL | Power BI | Python | Excel
+
+[GitHub Profile](https://github.com/ssdnrahul)
