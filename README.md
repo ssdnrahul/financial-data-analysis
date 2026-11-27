@@ -147,10 +147,10 @@ These metrics provide an overview of revenue generation, cost management, profit
 
 ## Project Files
 
-- [Business Case Study](Documentation/Business_Case.pdf)
+- [Business Case Study](Documentation/Financial_Performance_Business_Case_Study.pdf)
 - [Python Analysis Notebook](Notebooks/Finance.ipynb)
 - [Power BI Dashboard](PowerBI/Finance_BI.pbix)
-- [SQL Analysis Queries](SQL/Financial_Analysis.sql)
+- [SQL Analysis Queries](Finance.sql)
 
 ## Repository Structure
 
